@@ -1,0 +1,105 @@
+/*
+Responsive 
+site: udayalive.com
+author: Kristiyan Ushatov
+date: 02.03.2016
+*/
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.hp-mailchimp {
+	bottom: 20px;
+	
+}	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+.btn-menu {
+			display: block;
+		}
+}
+ 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+.btn-menu {
+			display: block;
+		}
+.hp-mailchimp {
+	bottom: 20px;
+	padding: 5px 5px;
+}
+#mainnav-mobi {
+	top: 55px;
+	right: 0;
+}
+#content .pp-item {
+	padding-right: 0;
+	padding: 5%;
+}
+.nav-tabs .nav-item{
+	display:block;
+	width:190px;
+}
+i.fa.fa-sort-desc.menu-arrows {
+	display: none;
+}
+ }
+ 
+ /* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) { 
+.btn-menu {
+			display: block;
+		}
+#mainnav-mobi {
+	top: 55px;
+	right:0;
+}
+#pl-3323 .pp-home-btn  {
+	left: 10px;
+	top: 80px;
+	width: 70px;
+}
+#pl-3323 .ms-layer.img-responsive {
+	width: 150%;
+	top: 200px!important;
+}
+#pl-3323 .hp-video .ms-slide-vpbtn {
+	top: 350px!important;
+	width:80px!important;
+}
+#pl-3323 .mmenu-btn {
+	bottom: 210px;
+	left: 10px;
+	width: 80px;
+}
+.hp-mailchimp {
+	bottom: 20px;
+	padding: 5px 5px;
+}
+#mainnav-mobi ul > li > a{
+	padding: 5px 10px;
+}
+div.header-wrap {
+	background-position: center 55px;
+}
+#content .pp-item {
+	padding-right: 0;
+	padding: 5%;
+}
+#primary .pt-tabs__content  {
+	padding-top: 200px
+}
+.nav-tabs .nav-item{
+	display:block;
+	width:190px;
+}
+i.fa.fa-sort-desc.menu-arrows {
+	display: none;
+}
+ }
+ 
+ /*********************************************End****************************************/
